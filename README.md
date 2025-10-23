@@ -1,4 +1,4 @@
-# 🧙‍♂️ RPG-DB-API
+# RPG-DB-API
 
 Sistema simples para gerenciamento de itens de RPG via API REST e console interativo. Desenvolvido com ASP.NET Core, Entity Framework e SQLite.
 
@@ -38,7 +38,7 @@ public class Item
 
 ---
 
-## ⚙️ Instalação de pacotes e configuração do ambiente
+## Instalação de pacotes e configuração do ambiente
 
 ```bash
 # Instalar pacotes do Entity Framework Core
