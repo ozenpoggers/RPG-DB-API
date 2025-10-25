@@ -27,6 +27,19 @@ public class Item
 ```
 ---
 
+## Console interativo
+
+Ao rodar o projeto com `dotnet run`, você verá o seguinte menu:
+
+```text
+== RPG Item Manager ==
+Escolha uma opção:
+1 - Cadastrar item
+2 - Listar itens
+3 - Atualizar item (por Id)
+4 - Remover item (por Id)
+0 - Sair
+```
 ## Raridades disponíveis
 
 | Código | Raridade  |
@@ -59,4 +72,51 @@ dotnet add package Swashbuckle.AspNetCore
 
 # Rodar o projeto
 dotnet run
+```
+---
+## Rotas da API
 
+| Método | Rota                | Descrição               |
+|--------|---------------------|--------------------------|
+| GET    | `/api/v1/items`     | Lista todos os itens     |
+| GET    | `/api/v1/items/{id}`| Busca item por Id        |
+| POST   | `/api/v1/items`     | Cria um novo item        |
+| PUT    | `/api/v1/items/{id}`| Atualiza item existente  |
+| DELETE | `/api/v1/items/{id}`| Remove item por Id       |
+
+---
+## Exemplos de requisições
+
+### 🔹 Criar item (POST)
+
+```http
+POST /api/v1/items
+Content-Type: application/json
+
+{
+  "nome": "Espada Flamejante",
+  "raridade": "Épico",
+  "preco": 250.00
+}
+```
+### Buscar item por Id (GET)
+```http
+GET /api/v1/items/1
+```
+### Atualizar item (PUT)
+```http
+PUT /api/v1/items/1
+Content-Type: application/json
+
+{
+  "nome": "Espada Congelante",
+  "raridade": "Lendário",
+  "preco": 400.00
+}
+```
+### Remover item (DELETE)
+```http
+DELETE /api/v1/items/1
+```
+
+Esses exemplos mostram como interagir com sua API usando ferramentas como Postman.
