@@ -40,6 +40,10 @@ Escolha uma opção:
 4 - Remover item (por Id)
 0 - Sair
 ```
+Você pode escolher qual opção deseja e o programa de acordo com a opção que você escolheu.
+
+---
+
 ## Raridades disponíveis
 
 | Código | Raridade  |
