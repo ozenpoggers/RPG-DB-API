@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ItensDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec4f22b0bb3ce9fd4186db9c43c64f7ea0ae98c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ItensDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ItensDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
