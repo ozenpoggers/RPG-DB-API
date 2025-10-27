@@ -81,9 +81,9 @@ POST /api/v1/items
 Content-Type: application/json
 
 {
-  "nome": "Espada Flamejante",
-  "raridade": "Épico",
-  "preco": 2500
+  "nome": "Gume do infinito",
+  "raridade": "Lendário",
+  "preco": 3000
 }
 ```
 ---
@@ -100,9 +100,9 @@ PUT /api/v1/items/1
 Content-Type: application/json
 
 {
-  "nome": "Espada Congelante",
-  "raridade": "Lendário",
-  "preco": 4000
+  "nome": "Força da Trindade",
+  "raridade": "Raro",
+  "preco": 3300
 }
 ```
 
