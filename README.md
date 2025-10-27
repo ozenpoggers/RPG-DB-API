@@ -86,11 +86,14 @@ Content-Type: application/json
   "preco": 2500
 }
 ```
+---
 ### Buscar item por ID
 ```http
 
 GET /api/v1/items/1
 ```
+---
+
 ### Atualizar item por ID
 ```http
 PUT /api/v1/items/1
@@ -102,6 +105,7 @@ Content-Type: application/json
   "preco": 4000
 }
 ```
+
 ### Remover item por ID
 ```http
 DELETE /api/v1/items/1
